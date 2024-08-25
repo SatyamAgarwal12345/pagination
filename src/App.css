@@ -54,4 +54,22 @@
   height: 660px;
   text-align: center;
   border: 20px solid grey;
+  font-weight: 300px;
+  font-size: larger;
+}
+.paginagtion{
+  
+  justify-content: center;
+  display: flex;
+}
+.paginagtion > span{
+  border: 3px solid black;
+  padding: 4px;
+  cursor: pointer;
+}
+.paginagtion__selected{
+  background-color: #282c34;
+}
+.disable{
+  opacity: 0;
 }
